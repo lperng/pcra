@@ -260,7 +260,7 @@ class PCRA:
 def _validate_system(cli_args) -> bool:
     if not check_python_version(PYTHON_VERSION_REQUIRED):
         printerr(f'This command requires Python {PYTHON_VERSION_REQUIRED} and you are using Python {sys.version.split()[0]}')
-        return False
+        return True
 
     if os.path.isdir(cli_args.folder):
         printerr('The path specified already exists!')

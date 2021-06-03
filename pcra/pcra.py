@@ -10,7 +10,7 @@ import venv
 from .utils import printerr, printmsg, printwarn, Fore, Style
 from .utils import check_python_version, check_git_installed, check_npm_installed, run_cmd
 
-PYTHON_VERSION_REQUIRED = '3.7'
+PYTHON_VERSION_REQUIRED = '3.8'
 
 is_windows = os.name == 'nt'
 

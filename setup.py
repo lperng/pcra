@@ -41,7 +41,7 @@ setup(
         "Environment :: Console",
         "Natural Language :: English"
     ],
-    python_requires=">=3.7,<3.8",
+    python_requires=">=3.7,<3.9",
     keywords="react material-ui mui transcrypt cli web",
     packages=find_packages(include=["pcra"]),
     package_data={'pcra': [*glob_fix('pcra', 'template/**/*')]},
